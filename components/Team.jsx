@@ -8,8 +8,6 @@ const photoList = [
   "/assets/image2.jpg",
   "/assets/image1.jpeg",
   "/assets/image2.jpg",
-
-  
 ];
 const teamMembers = [
   {
