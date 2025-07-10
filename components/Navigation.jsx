@@ -26,7 +26,7 @@ export default function Navigation() {
         <div className="flex justify-between h-16 items-center ">
           <div className="flex items-center center space-x-4">
             <a href="/" className="flex-shrink-0">
-              <img src="../assets/logo.png" alt="logo" />
+              <img src="../logo.png" alt="logo" />
             </a>
           </div>
 

@@ -2,53 +2,53 @@ import React from "react";
 import Carousel from "./Carousel";
 
 const photoList = [
-  "/assets/image1.jpeg",
-  "/assets/image2.jpg",
-  "/assets/image1.jpeg",
-  "/assets/image2.jpg",
-  "/assets/image1.jpeg",
-  "/assets/image2.jpg",
+  "/image1.jpeg",
+  "/image2.jpg",
+  "/image1.jpeg",
+  "/image2.jpg",
+  "/image1.jpeg",
+  "/image2.jpg",
 ];
 const teamMembers = [
   {
     name: "DIPESH KARKI",
     title: "Finance Manager",
-    image: "./assets/team1.jpg",
+    image: "./team1.jpg",
   },
   {
     name: "Prayusha Shrestha",
     title: "HR Officer",
-    image: "/assets/team2.jpg",
+    image: "/team2.jpg",
   },
   {
     name: "Manta Lama",
     title: "Digital Marketing Co-ordinator",
-    image: "/assets/team3.jpg",
+    image: "/team3.jpg",
   },
   {
     name: "Dipak B K ",
     title: "Motion Graphics Designer & Video Editor",
-    image: "/assets/team4.jpg",
+    image: "/team4.jpg",
   },
   {
     name: "Aman Shrestha",
     title: "Aman Shrestha",
-    image: "/assets/team5.jpeg",
+    image: "/team5.jpeg",
   },
   {
     name: "Rajan Sharma",
     title: "Marketing Officer",
-    image: "/assets/team6.jpeg",
+    image: "/team6.jpeg",
   },
   {
     name: "Prajwol KC",
     title: "Software Engineer",
-    image: "/assets/team7.jpeg",
+    image: "/team7.jpeg",
   },
   {
     name: "Sujan Karki",
     title: "Graphic Designer Intern",
-    image: "/assets/team8.jpeg",
+    image: "/team8.jpeg",
   },
 ];
 const Team = () => {

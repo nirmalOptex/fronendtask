@@ -14,7 +14,7 @@ const Footer = () => {
         {/* Logo and Info */}
         <div className="md:w-1/3">
           <img
-            src="/assets/logo.png"
+            src="/logo.png"
             alt="Aakash Labs Logo"
             className="h-10 mb-4"
           />

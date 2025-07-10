@@ -2,12 +2,12 @@ import React from "react";
 
 // Replace these with your own icon URLs
 const socialIcons = [
-  { name: "Instagram", src: "../assets/icons/instagram.png", link: "https://instagram.com" },
-  { name: "WhatsApp", src: "../assets/icons/whatsapp.png", link: "https://wa.me/your-number" },
-  { name: "Google Ads", src: "../assets/icons/adwords.png", link: "https://ads.google.com" },
-  { name: "ManyChat", src: "../assets/icons/manychat.png", link: "https://manychat.com" },
-  { name: "Facebook", src: "../assets/icons/facebook.png", link: "https://facebook.com" },
-  { name: "YouTube", src: "../assets/icons/youtube.png", link: "https://youtube.com" },
+  { name: "Instagram", src: "../instagram.png", link: "https://instagram.com" },
+  { name: "WhatsApp", src: "../whatsapp.png", link: "https://wa.me/your-number" },
+  { name: "Google Ads", src: "../adwords.png", link: "https://ads.google.com" },
+  { name: "ManyChat", src: "../manychat.png", link: "https://manychat.com" },
+  { name: "Facebook", src: "../facebook.png", link: "https://facebook.com" },
+  { name: "YouTube", src: "../youtube.png", link: "https://youtube.com" },
 ];
 
 const SocialLinks = () => {

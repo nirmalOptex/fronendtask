@@ -85,7 +85,7 @@ const Contact = () => {
           </p>
 
           <div className="mb-6 flex items-start gap-4 mx-8">
-            <img src="../assets/icons/call.svg" alt="" />
+            <img src="../call.svg" alt="" />
             <div>
               <h4 className="font-semibold">Call Us</h4>
               <p>+977-1-4430196</p>
@@ -93,7 +93,7 @@ const Contact = () => {
           </div>
 
           <div className="mb-6 flex items-start gap-4 mx-8">
-            <img src="../assets/icons/email.svg" alt="" />
+            <img src="../email.svg" alt="" />
             <div>
               <h4 className="font-semibold">Email</h4>
               <p>info@aakashlabs.com</p>
@@ -101,7 +101,7 @@ const Contact = () => {
           </div>
 
           <div className="mb-6 flex items-start gap-4 mx-8">
-                      <img src="../assets/icons/address.svg" alt="" />
+                      <img src="../address.svg" alt="" />
 
             <div>
               <h4 className="font-semibold">Address</h4>

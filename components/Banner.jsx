@@ -2,9 +2,9 @@ import { ArrowRight, Play } from "lucide-react";
 import Slider from "./slider";
 
 const banners = [
-  "/assets/image1.jpeg",
-  "/assets/image4.jpeg",
-  "/assets/image3.jpeg",
+  "/image1.jpeg",
+  "/image4.jpeg",
+  "/image3.jpeg",
 ];
 export default function Banner() {
   return (
@@ -43,7 +43,7 @@ export default function Banner() {
           <div className="relative">
             <div className="relative z-10  ">
               <img
-                src="./assets/gif.gif"
+                src="./gif.gif"
                 alt="Technology Solutions"
                 className="w-auto h-full rounded-2x1"
               />

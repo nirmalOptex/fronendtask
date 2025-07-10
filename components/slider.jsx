@@ -5,35 +5,35 @@ const testimonials = [
   {
     name: "BUDDHI MAN BALAMI",
     role: "Managing Director – Q & U Hongkong Furniture",
-    logo: "/assets/team5.jpeg",
+    logo: "/team5.jpeg",
     message:
       "Aakash labs has to have handling and increasing traffic on our website with best strategy and customized campaigns with SEO, Social Media, Website Programs, SERP. We are impressed with their work and response.",
   },
   {
     name: "RAMESH PARAJULI",
     role: "Managing Director – Rupse Holidays",
-    logo: "/assets/team4.jpg",
+    logo: "/team4.jpg",
     message:
       "As a travel agency, constant promotions and ad campaigns of new tour package offers is crucial to us. Aakash Labs has been consistent in their results and their time to respond has been commendable.",
   },
   {
     name: "RAJAN BARAL",
     role: "CEO – Merit",
-    logo: "/assets/team3.jpg",
+    logo: "/team3.jpg",
     message:
       "Aakash Labs has increased our brand presence among students, and provided quality leads with customized Ad Campaigns.",
   },
   {
     name: "SIJAN NEUPANE",
     role: "Agni Group",
-    logo: "/assets/team2.jpg",
+    logo: "/team2.jpg",
     message:
       "Being the sole distributors for Mahindra vehicles in Nepal, Aakash Labs helped us generate sales for new model launches and provide 360-degree online marketing services.",
   },
   {
     name: "Shailesh Wagle",
     role: "Digital Marketing Intern",
-    logo: "/assets/team1.jpg",
+    logo: "/team1.jpg",
     message:
       "I have been associated with Aakashlabs for 3 months internship and I can say that I feel empowered with the kind of experiences that I gained in those months.",
   },
