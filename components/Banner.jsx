@@ -43,7 +43,7 @@ export default function Banner() {
           <div className="relative">
             <div className="relative z-10  ">
               <img
-                src="./gif.gif"
+                src="/gif.gif"
                 alt="Technology Solutions"
                 className="w-auto h-full rounded-2x1"
               />

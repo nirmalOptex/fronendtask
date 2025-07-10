@@ -25,7 +25,7 @@ export default function About() {
             <div className="space-y-4">
               <div className="relative">
                 <img
-                  src="./image2.jpg"
+                  src="/image2.jpg"
                   alt="About Us"
                   className="w-full h-auto rounded-2xl shadow-xl"
                 />
@@ -84,7 +84,7 @@ export default function About() {
           <div className="col-span-1">
             <div className="">
               <img
-                src="./svg1.svg"
+                src="/svg1.svg"
                 alt="About Us"
                 className="w-[350px] h-[350px] "
               />
