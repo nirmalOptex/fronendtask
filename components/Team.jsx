@@ -2,12 +2,12 @@ import React from "react";
 import Carousel from "./Carousel";
 
 const photoList = [
-  "./assets/image1.jpeg",
-  "./assets/image2.jpg",
-  "./assets/image1.jpeg",
-  "./assets/image2.jpg",
-  "./assets/image1.jpeg",
-  "./assets/image2.jpg",
+  "/assets/image1.jpeg",
+  "/assets/image2.jpg",
+  "/assets/image1.jpeg",
+  "/assets/image2.jpg",
+  "/assets/image1.jpeg",
+  "/assets/image2.jpg",
 
   
 ];
