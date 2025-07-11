@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-
+import Footer from "./Footer"; 
 const ApiDemo = () => {
   const [books, setBooks] = useState([]);
   const [query, setQuery] = useState("");
@@ -28,6 +28,7 @@ const ApiDemo = () => {
   }, []);
 
   return (
+    <>
     <div className="p-6">
       <h1 className="text-2xl font-bold mb-4">Book Search</h1>
       <input
@@ -49,26 +50,34 @@ const ApiDemo = () => {
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
         {books.map((book) => {
           const info = book.volumeInfo;
-          return (
+            return (
             <div key={book.id} className="border p-2 rounded">
               <img
-                src={
-                  info.imageLinks?.thumbnail ||
-                  "https://via.placeholder.com/128x192?text=No+Image"
-                }
-                alt={info.title}
-                className="mb-2 mx-auto"
+              src={
+                info.imageLinks?.thumbnail ||
+                "https://via.placeholder.com/128x192?text=No+Image"
+              }
+              alt={info.title}
+              className="mb-2 mx-auto"
               />
               <h3 className="text-sm font-semibold">{info.title}</h3>
               <p className="text-xs text-gray-600">
-                {info.authors?.join(", ")}
+              {info.authors?.join(", ")}
               </p>
             </div>
-          );
-        })}
-      </div>
-    </div>
-  );
-};
+            );
+          })}
+          </div>
+        </div>
+        <div className="min-h-screen flex flex-col">
+          <div className="flex-grow"></div>
+          <section id="footer" className="mt-auto">
+          <Footer />
+          </section>
+        </div>
+        </>
+        );
+      };
+
 
 export default ApiDemo;
